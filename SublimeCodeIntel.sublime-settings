@@ -1,0 +1,17 @@
+{
+    "JavaScript": {
+        "javascriptExtraPaths": []
+    },
+
+    "Python": {
+        "python": "/usr/bin/python2",
+        "pythonExtraPaths": []
+    },
+
+    "Python3": {
+        "python": "/usr/bin/python3",
+        "pythonExtraPaths": [
+            "F:/Python35/Lib/site-packages",
+        ]
+    },
+}

@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"Markdown Preview",
+		"Package Control",
+		"SublimeCodeIntel",
+		"SyncedSideBar",
+		"Theme - Soda"
+	]
+}

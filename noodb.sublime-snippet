@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+require("config")
+require("cocos.init")
+require("framework.init")
+
+require("data.GameConfig") --游戏配置
+require("data.GameEvents") --游戏事件
+gameSave = import("..data.GameSave") --存档
+
+SaveManager = import("..tools.manager.SaveManager") --存档管理
+DispatcherManager = import("..tools.manager.DispatchManager") --全局消息分发器
+ConfigManager = import("..tools.manager.ConfigManager") --配置管理器
+AdmobManager = import("..tools.manager.AdmobManager") --Admob管理器
+GameCenterManager = import("..tools.manager.GameCenterManager") --GameCenter管理器
+OcManager = import("..tools.manager.OcManager") --OC管理器
+Operation = import("..tools.Operation")
+ColorNode = import("..tools.ui.ColorNode")
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>noodles</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.lua</scope>
+</snippet>

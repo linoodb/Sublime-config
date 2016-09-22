@@ -1,0 +1,8 @@
+{
+   "scope": "source.lua",
+
+   "completions":
+   [
+      { "trigger": "myfunction", "contents": "local function ${1:funName}(${2:...})\n    ${3:-- do something}\nend" },
+   ]
+}
